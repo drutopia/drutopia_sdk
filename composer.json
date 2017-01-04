@@ -1,0 +1,170 @@
+{
+    "name": "drutopia/drutopia",
+    "description": "Drutopia is an member-owned, open source content management platform built on top of Drupal.",
+    "type": "project",
+    "license": "GPL-2.0+",
+    "require": {
+        "composer/installers": "^1.0.21",
+        "wikimedia/composer-merge-plugin": "~1.3",
+        "drupal/core": "~8.2.3",
+        "drupal/config_update": "~1.1",
+        "drupal/features": "~3.0-beta7",
+        "mnsami/composer-custom-directory-installer": "^1.0",
+        "drutopia/drutopia_article": "dev-master",
+        "drutopia/drutopia_blog": "dev-master",
+        "drutopia/drutopia_comment": "dev-master",
+        "drutopia/drutopia_core": "dev-master",
+        "drutopia/drutopia_page": "dev-master",
+        "drutopia/drutopia_site": "dev-master",
+        "drutopia/drutopia_user": "dev-master",
+        "drutopia/drutopia-distribution": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist",
+        "autoloader-suffix": "Drupal8"
+    },
+    "extra": {
+        "_readme": [
+            "By default Drupal loads the autoloader from ./vendor/autoload.php.",
+            "To change the autoloader you can edit ./autoload.php."
+        ],
+        "merge-plugin": {
+            "include": [
+                "core/composer.json",
+                "modules/drutopia-contrib/*/composer.json"
+            ],
+            "recurse": false,
+            "replace": false,
+            "merge-extra": false
+        },
+        "installer-paths": {
+            "modules/contrib/{$name}": ["type:drupal-module"],
+            "profiles/{$name}": ["type:drupal-profile"],
+            "themes/contrib/{$name}": ["type:drupal-theme"],
+            "modules/drutopia-contrib/drutopia_article": ["drutopia/drutopia_article"],
+            "modules/drutopia-contrib/drutopia_blog": ["drutopia/drutopia_blog"],
+            "modules/drutopia-contrib/drutopia_comment": ["drutopia/drutopia_comment"],
+            "modules/drutopia-contrib/drutopia_core": ["drutopia/drutopia_core"],
+            "modules/drutopia-contrib/drutopia_page": ["drutopia/drutopia_page"],
+            "modules/drutopia-contrib/drutopia_site": ["drutopia/drutopia_site"],
+            "modules/drutopia-contrib/drutopia_user": ["drutopia/drutopia_user"],
+            "profiles/drutopia": ["drutopia/drutopia-distribution"]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\Core\\Composer\\": "core/lib/Drupal/Core/Composer"
+        }
+    },
+    "scripts": {
+        "pre-autoload-dump": "Drupal\\Core\\Composer\\Composer::preAutoloadDump",
+        "post-autoload-dump": "Drupal\\Core\\Composer\\Composer::ensureHtaccess",
+        "post-package-install": "Drupal\\Core\\Composer\\Composer::vendorTestCodeCleanup",
+        "post-package-update": "Drupal\\Core\\Composer\\Composer::vendorTestCodeCleanup"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "drutopia_article": {
+            "type": "package",
+            "package": {
+                "name": "drutopia/drutopia_article",
+                "version": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:ronaldmulero/drutopia_article.git",
+                    "reference": "8.x-1.x"
+                }
+            }
+        },
+        "drutopia_blog": {
+            "type": "package",
+            "package": {
+                "name": "drutopia/drutopia_blog",
+                "version": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:drutopia/drutopia_blog.git",
+                    "reference": "8.x-1.x"
+                }
+            }
+        },
+        "drutopia_comment": {
+            "type": "package",
+            "package": {
+                "name": "drutopia/drutopia_comment",
+                "version": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:drutopia/drutopia_comment.git",
+                    "reference": "8.x-1.x"
+                }
+            }
+        },
+        "drutopia_core": {
+            "type": "package",
+            "package": {
+                "name": "drutopia/drutopia_core",
+                "version": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:drutopia/drutopia_core.git",
+                    "reference": "8.x-1.x"
+                }
+            }
+        },
+        "drutopia_page": {
+            "type": "package",
+            "package": {
+                "name": "drutopia/drutopia_page",
+                "version": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:drutopia/drutopia_page.git",
+                    "reference": "8.x-1.x"
+                }
+            }
+        },
+        "drutopia_site": {
+            "type": "package",
+            "package": {
+                "name": "drutopia/drutopia_site",
+                "version": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:drutopia/drutopia_site.git",
+                    "reference": "8.x-1.x"
+                }
+            }
+        },
+        "drutopia_user": {
+            "type": "package",
+            "package": {
+                "name": "drutopia/drutopia_user",
+                "version": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:drutopia/drutopia_user.git",
+                    "reference": "8.x-1.x"
+                }
+            }
+        },
+        "drutopia-distribution": {
+            "type": "package",
+            "package": {
+                "name": "drutopia/drutopia-distribution",
+                "version": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:drutopia/drutopia-distribution.git",
+                    "reference": "8.x-1.x"
+                }
+            }
+        }
+    }
+}
+
