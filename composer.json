@@ -10,14 +10,13 @@
         "drupal/config_update": "~1.1",
         "drupal/features": "~3.0-beta7",
         "mnsami/composer-custom-directory-installer": "^1.0",
-        "drutopia/drutopia_article": "dev-master",
-        "drutopia/drutopia_blog": "dev-master",
-        "drutopia/drutopia_comment": "dev-master",
-        "drutopia/drutopia_core": "dev-master",
-        "drutopia/drutopia_page": "dev-master",
-        "drutopia/drutopia_site": "dev-master",
-        "drutopia/drutopia_user": "dev-master",
-        "drutopia/drutopia-distribution": "dev-master"
+        "drutopia/drutopia_article": "dev-8.x-1.x",
+        "drutopia/drutopia_blog": "dev-8.x-1.x",
+        "drutopia/drutopia_comment": "dev-8.x-1.x",
+        "drutopia/drutopia_core": "dev-8.x-1.x",
+        "drutopia/drutopia_page": "dev-8.x-1.x",
+        "drutopia/drutopia_site": "dev-8.x-1.x",
+        "drutopia/drutopia_user": "dev-8.x-1.x"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -65,7 +64,7 @@
             "type": "package",
             "package": {
                 "name": "drutopia/drutopia_article",
-                "version": "dev-master",
+                "version": "dev-8.x-1.x",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:drutopia/drutopia_article.git",
@@ -77,7 +76,7 @@
             "type": "package",
             "package": {
                 "name": "drutopia/drutopia_blog",
-                "version": "dev-master",
+                "version": "dev-8.x-1.x",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:drutopia/drutopia_blog.git",
@@ -89,7 +88,7 @@
             "type": "package",
             "package": {
                 "name": "drutopia/drutopia_comment",
-                "version": "dev-master",
+                "version": "dev-8.x-1.x",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:drutopia/drutopia_comment.git",
@@ -101,7 +100,7 @@
             "type": "package",
             "package": {
                 "name": "drutopia/drutopia_core",
-                "version": "dev-master",
+                "version": "dev-8.x-1.x",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:drutopia/drutopia_core.git",
@@ -113,7 +112,7 @@
             "type": "package",
             "package": {
                 "name": "drutopia/drutopia_page",
-                "version": "dev-master",
+                "version": "dev-8.x-1.x",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:drutopia/drutopia_page.git",
@@ -125,7 +124,7 @@
             "type": "package",
             "package": {
                 "name": "drutopia/drutopia_site",
-                "version": "dev-master",
+                "version": "dev-8.x-1.x",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:drutopia/drutopia_site.git",
@@ -137,7 +136,7 @@
             "type": "package",
             "package": {
                 "name": "drutopia/drutopia_user",
-                "version": "dev-master",
+                "version": "dev-8.x-1.x",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:drutopia/drutopia_user.git",
@@ -149,7 +148,7 @@
             "type": "package",
             "package": {
                 "name": "drutopia/drutopia-distribution",
-                "version": "dev-master",
+                "version": "dev-8.x-1.x",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:drutopia/drutopia-distribution.git",
