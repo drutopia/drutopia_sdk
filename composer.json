@@ -1,6 +1,6 @@
 {
-    "name": "drutopia/drutopia",
-    "description": "Drutopia is an member-owned, open source content management platform built on top of Drupal.",
+    "name": "drutopia/drutopia_sdk",
+    "description": "Software development kit for Drutopia, a member-owned, open source content management platform built on top of Drupal.",
     "type": "project",
     "license": "GPL-2.0+",
     "require": {
