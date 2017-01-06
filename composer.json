@@ -68,7 +68,7 @@
                 "version": "dev-master",
                 "source": {
                     "type": "git",
-                    "url": "git@gitlab.com:ronaldmulero/drutopia_article.git",
+                    "url": "git@gitlab.com:drutopia/drutopia_article.git",
                     "reference": "8.x-1.x"
                 }
             }
