@@ -42,15 +42,7 @@
         "installer-paths": {
             "modules/contrib/{$name}": ["type:drupal-module"],
             "profiles/{$name}": ["type:drupal-profile"],
-            "themes/contrib/{$name}": ["type:drupal-theme"],
-            "modules/drutopia-contrib/drutopia_article": ["drutopia/drutopia_article"],
-            "modules/drutopia-contrib/drutopia_blog": ["drutopia/drutopia_blog"],
-            "modules/drutopia-contrib/drutopia_comment": ["drutopia/drutopia_comment"],
-            "modules/drutopia-contrib/drutopia_core": ["drutopia/drutopia_core"],
-            "modules/drutopia-contrib/drutopia_page": ["drutopia/drutopia_page"],
-            "modules/drutopia-contrib/drutopia_site": ["drutopia/drutopia_site"],
-            "modules/drutopia-contrib/drutopia_user": ["drutopia/drutopia_user"],
-            "profiles/drutopia": ["drutopia/drutopia-distribution"]
+            "themes/contrib/{$name}": ["type:drupal-theme"]
         }
     },
     "autoload": {
