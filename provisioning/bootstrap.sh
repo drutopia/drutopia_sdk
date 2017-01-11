@@ -79,6 +79,8 @@ fi
 
 sudo -u vagrant composer config --global repo.packagist composer https://packagist.org
 
+ssh-keyscan -t ecdsa gitlab.com >> ~/.ssh/known_hosts
+
 sudo php5dismod -s cli xdebug
 cd /vagrant && sudo -u vagrant composer install --prefer-dist
 sudo php5enmod -s cli xdebug
