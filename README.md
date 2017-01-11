@@ -1,6 +1,6 @@
 # Drutopia development quickstart
 
-This guide helps you jumpstart working on a Drupal 8 project using Drutopia. It assumes you are familiar with git and working on the command line.
+This guide helps you jumpstart contributing to the development of the Drutopia distribution for Drupal 8. It assumes you are familiar with git and working on the command line.
 
 ## Install Virtualbox and Vagrant
 
@@ -13,8 +13,8 @@ This guide helps you jumpstart working on a Drupal 8 project using Drutopia. It 
 From a terminal, move (cd) into the folder where you would like to keep Drutopia's code. Then:
 
 ```
-$ git clone git@gitlab.com:drutopia/drutopiaorg.git
-$ cd drutopiaorg
+$ git clone git@gitlab.com:drutopia/drutopia_sdk.git
+$ cd drutopia_sdk
 $ vagrant up
 ```
 
