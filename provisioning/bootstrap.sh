@@ -79,7 +79,7 @@ fi
 
 sudo -u vagrant composer config --global repo.packagist composer https://packagist.org
 
-sudo -u vagrant ssh-keyscan -t ecdsa gitlab.com >> ~/.ssh/known_hosts
+ssh-keyscan -t ecdsa gitlab.com >> /home/vagrant/.ssh/known_hosts
 
 sudo php5dismod -s cli xdebug
 cd /vagrant && sudo -u vagrant composer install --prefer-dist
