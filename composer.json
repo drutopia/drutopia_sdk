@@ -88,8 +88,8 @@
         "drutopia_comment": {
             "type": "package",
             "package": {
-                "version": "dev-8.x-1.x",
                 "name": "drupal/drutopia_comment",
+                "version": "dev-1.x",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:drutopia/drutopia_comment.git",
@@ -100,8 +100,8 @@
         "drutopia_core": {
             "type": "package",
             "package": {
-                "name": "drutopia/drutopia_core",
-                "version": "dev-8.x-1.x",
+                "name": "drupal/drutopia_core",
+                "version": "dev-1.x",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:drutopia/drutopia_core.git",
@@ -121,7 +121,7 @@
                 }
             }
         },
-        "drutopia_site": {
+        "drupal/drutopia_site": {
             "type": "package",
             "package": {
                 "name": "drupal/drutopia_site",
@@ -133,11 +133,11 @@
                 }
             }
         },
-        "drutopia_user": {
+        "drupal/drutopia_user": {
             "type": "package",
             "package": {
                 "name": "drupal/drutopia_user",
-                "version": "dev-8.x-1.x",
+                "version": "dev-1.x",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:drutopia/drutopia_user.git",
