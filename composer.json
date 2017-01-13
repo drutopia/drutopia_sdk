@@ -148,11 +148,11 @@
         "drutopia-distribution": {
             "type": "package",
             "package": {
-                "name": "drutopia/drutopia-distribution",
+                "name": "drupal/drutopia",
                 "version": "dev-8.x-1.x",
                 "source": {
                     "type": "git",
-                    "url": "git@gitlab.com:drutopia/drutopia-distribution.git",
+                    "url": "git@gitlab.com:drutopia/drutopia.git",
                     "reference": "8.x-1.x"
                 }
             }
