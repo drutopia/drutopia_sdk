@@ -123,7 +123,7 @@
         },
         "drutopia_site": {
             "type": "vcs",
-            "url": "git@gitlab.com:drutopia/drutopia_site.git"
+            "url": "https://git.drupal.org/project/drutopia_site.git"
         },
         "drupal/drutopia_user": {
             "type": "package",
