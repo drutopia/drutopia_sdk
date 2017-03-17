@@ -121,17 +121,9 @@
                 }
             }
         },
-        "drupal/drutopia_site": {
-            "type": "package",
-            "package": {
-                "name": "drupal/drutopia_site",
-                "version": "dev-8.x-1.x",
-                "source": {
-                    "type": "git",
-                    "url": "git@gitlab.com:drutopia/drutopia_site.git",
-                    "reference": "8.x-1.x"
-                }
-            }
+        "drutopia_site": {
+            "type": "vcs",
+            "url": "git@gitlab.com:drutopia/drutopia_site.git"
         },
         "drupal/drutopia_user": {
             "type": "package",
