@@ -43,6 +43,10 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
+        "drupal/drutopia": {
+            "type": "vcs",
+            "url": "git@github.com:Drutopia/drutopia.git"
+        },
         "drutopia_article": {
             "type": "vcs",
             "url": "https://git.drupal.org/project/drutopia_article.git"
