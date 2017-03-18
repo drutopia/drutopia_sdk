@@ -7,7 +7,7 @@
         "composer/installers": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.0",
-        "drupal/drutopia": "dev-1.x",
+        "drupal/drutopia": "1.x-dev",
         "drush/drush": "8.*@stable"
     },
     "minimum-stability": "dev",
@@ -73,4 +73,3 @@
         }
     }
 }
-
