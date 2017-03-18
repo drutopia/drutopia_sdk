@@ -42,6 +42,10 @@ $ touch ~/.gitignore
 $ git config --global core.excludesfile ~/.gitignore
 ```
 
+## Temporary manual step
+
+Create web/sites/default/settings.php
+
 ## Develop
 
 Pick a ticket, create a branch referencing the ticket number, e.g. `git checkout -b project-123`. Commit your code in small chunks capturing logical steps and follow the [Drupal coding standards](https://drupal.org/coding-standards) and the [guidelines for commit messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html). All configuration that accompanies your code, e.g. creating fields and content types, must be in the `config` directory or scripted in an update hook. Once your work is done request a review and eventually your code will get merged into the master branch.
@@ -55,15 +59,14 @@ sure you're up-to-date before starting to contribute changes to the
 project.  This involves fetching new code from the repository (```git
 pull```), updating the project's dependencies, re-installing the site (NOTE:
 site install *will* destroy all content in your database), and compiling CSS
-from Sass.  The latter three steps can be done with the following commands:
+from Sass.  The latter steps can be done with the following commands:
 
 ```
 composer install
 drush -y si drutopia
 ```
 
-To pull in other developers' configuration changes without destroying
-content, after ```composer install``` you can use:
+Or just to bring in configuration:
 
 ```
 drush -y cim
