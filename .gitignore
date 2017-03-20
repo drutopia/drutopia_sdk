@@ -14,8 +14,6 @@ web/themes/contrib
 web/profiles/contrib
 web/autoload.php
 
-build
-
 # Ignore Drupal's file directory
 web/sites/default/files
 
