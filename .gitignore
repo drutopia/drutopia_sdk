@@ -13,6 +13,9 @@ web/modules/contrib
 web/themes/contrib
 web/profiles/contrib
 web/autoload.php
+# And...
+web/update.php
+web/index.php
 
 # Ignore Drupal's file directory
 web/sites/default/files
@@ -22,7 +25,22 @@ web/sites/default/services.yml
 web/sites/default/settings.local.php
 
 # Ignore all of Drupal's scaffolded files
-# NOTE: In a repository meant for managing 
+# NOTE: In a repository meant for managing a project, committing these would be
+# helpful for seeing what Drupal is changing.
 web/sites/example.settings.local.php
 web/sites/example.sites.php
+web/sites/default/default.services.yml
+web/sites/default/default.settings.php
+web/sites/development.services.yml
+# And these would be committed to allow local changes
+web/web.config
+web/.csslintrc
+web/.editorconfig
+web/.eslintignore
+web/.eslintrc
+web/.gitattributes
+web/.htaccess
+web/robots.txt
 
+# Ignore everything already in a repository
+web/profiles/drutopia
