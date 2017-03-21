@@ -82,7 +82,7 @@ sudo -u vagrant composer config --global repo.packagist composer https://packagi
 ssh-keyscan -t ecdsa gitlab.com >> /home/vagrant/.ssh/known_hosts
 
 sudo php5dismod -s cli xdebug
-cd /vagrant && sudo -u vagrant composer install --prefer-dist
+cd /vagrant && sudo -u vagrant composer update
 sudo php5enmod -s cli xdebug
 
 # Install the distribution
