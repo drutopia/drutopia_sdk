@@ -42,15 +42,11 @@ $ touch ~/.gitignore
 $ git config --global core.excludesfile ~/.gitignore
 ```
 
-## Temporary manual step
-
-Create web/sites/default/settings.php
-
 ## Develop
 
 Pick a ticket, create a branch referencing the ticket number, e.g. `git checkout -b project-123`. Commit your code in small chunks capturing logical steps and follow the [Drupal coding standards](https://drupal.org/coding-standards) and the [guidelines for commit messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html). All configuration that accompanies your code, e.g. creating fields and content types, must be in the `config` directory or scripted in an update hook. Once your work is done request a review and eventually your code will get merged into the master branch.
 
-All commands referenced below are from within the virtual machine (use ```vagrant ssh``` to enter the VM).  Git commands should be run from your host computer.
+All commands referenced below are from within the virtual machine:  use ```vagrant ssh``` to enter the VM.  Git commands should be run from your host computer.
 
 ### Pull in others' changes
 
@@ -65,20 +61,6 @@ from Sass.  The latter steps can be done with the following commands:
 composer install
 drush -y si drutopia
 ```
-
-Or just to bring in configuration:
-
-```
-drush -y cim
-```
-
-### Export configuration
-
-```
-$ drush -y cex
-```
-
-And then ```git add config``` and review diff (```git diff --cached```) before committing.
 
 ### Export default content
 
@@ -107,13 +89,6 @@ With `composer require ...` you can add new dependencies to your installation:
 $ cd /vagrant
 $ composer require drupal/honeypot:8.*
 ```
-
-### Updating Drupal core
-
-1. Update the version number of `drupal/core` in composer.json.
-1. Run `composer update drupal/core`.
-1. Run `./scripts/drupal/update-scaffold [drush-version-spec]` to update files in the `web` directory, where `drush-version-spec` is an optional identifier acceptable to Drush, e.g. `drupal-8.0.x` or `drupal-8.1.x`, corresponding to the version you specified in `composer.json`. (Defaults to `drupal-8`, the latest stable release.) Review the files for any changes and restore any customizations to `.htaccess` or `robots.txt`.
-1. Commit everything all together in a single commit, so `web` will remain in sync with the `core` when checking out branches or running `git bisect`.
 
 ## Getting in sync with other developers
 
