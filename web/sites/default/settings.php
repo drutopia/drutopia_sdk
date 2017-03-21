@@ -86,15 +86,7 @@
  * );
  * @endcode
  */
-$databases['default']['default'] = array(
-  'driver' => 'mysql',
-  'database' => 'drupal',
-  'username' => 'root',
-  'password' => '',
-  'host' => 'localhost',
-  'prefix' => '',
-);
-
+ $databases = array();
 
 /**
  * Customizing database settings.
@@ -293,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'pPWLLC3Dclb4m9OvBlPqUPi_nkJ3igREjwHtlLoyD7ZAJjtzwuwwgvIpVvdYgPqUF6wX_Jf_jw';
 
 /**
  * Deployment identifier.
@@ -761,3 +753,15 @@ $settings['file_scan_ignore_directories'] = [
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+$databases['default']['default'] = array (
+  'database' => 'drupal',
+  'username' => 'root',
+  'password' => '',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['install_profile'] = 'drutopia';
+$config_directories['sync'] = 'sites/default/files/config_Yhcqd1IjzB6D5tu00nHsV0Lc4iL77iPeJXe1_Zho5XFJYaheDaJaDjxhgXxc17wp4Nxpz0U3Bg/sync';
