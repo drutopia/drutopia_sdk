@@ -20,3 +20,9 @@ web/sites/default/files
 # Ignore configuration files
 web/sites/default/services.yml
 web/sites/default/settings.local.php
+
+# Ignore all of Drupal's scaffolded files
+# NOTE: In a repository meant for managing 
+web/sites/example.settings.local.php
+web/sites/example.sites.php
+
