@@ -46,54 +46,6 @@
         "drutopia": {
             "type": "vcs",
             "url": "https://github.com/Drutopia/drutopia"
-        },
-        "drutopia_action": {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/drutopia_action.git"
-        },
-        "drutopia_article": {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/drutopia_article.git"
-        },
-        "drutopia_blog": {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/drutopia_blog.git"
-        },
-        "drutopia_campaign": {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/drutopia_campaign.git"
-        },
-        "drutopia_comment": {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/drutopia_comment.git"
-        },
-        "drutopia_core": {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/drutopia_core.git"
-        },
-        "drutopia_event": {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/drutopia_event.git"
-        },
-        "drutopia_group": {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/drutopia_group.git"
-        },
-        "drutopia_page": {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/drutopia_page.git"
-        },
-        "drutopia_people": {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/drutopia_people.git"
-        },
-        "drutopia_site": {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/drutopia_site.git"
-        },
-        "drupal/drutopia_user": {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/drutopia_user.git"
         }
     }
 }
