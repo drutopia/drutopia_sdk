@@ -45,7 +45,7 @@
     },
     "drutopia": {
       "type": "vcs",
-      "url": "https://github.com/Drutopia/drutopia"
+      "url": "git@gitlab.com:drutopia/drutopia.git"
     },
     "drutopia_action": {
       "type": "vcs",
