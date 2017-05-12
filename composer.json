@@ -1,51 +1,99 @@
 {
-    "name": "drutopia/drutopia_sdk",
-    "description": "Software development kit for Drutopia, a member-owned, open source content management platform built on top of Drupal.",
-    "type": "project",
-    "license": "GPL-2.0+",
-    "require": {
-        "composer/installers": "^1.0",
-        "drupal-composer/drupal-scaffold": "^2.0.0",
-        "cweagans/composer-patches": "^1.0",
-        "drutopia/drutopia": "dev-8.x-1.x",
-        "drush/drush": "8.*@stable"
+  "name": "drutopia/drutopia_sdk",
+  "description": "Software development kit for Drutopia, a member-owned, open source content management platform built on top of Drupal.",
+  "type": "project",
+  "license": "GPL-2.0+",
+  "require": {
+    "composer/installers": "^1.0",
+    "drupal-composer/drupal-scaffold": "^2.0.0",
+    "cweagans/composer-patches": "^1.0",
+    "drutopia/drutopia": "dev-8.x-1.x",
+    "drush/drush": "8.*@stable"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "preferred-install": "dist",
+    "autoloader-suffix": "Drupal8"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/core": [ "drupal/core" ],
+      "web/modules/contrib/{$name}": [ "type:drupal-module" ],
+      "web/profiles/{$name}": [ "type:drupal-profile" ],
+      "web/themes/contrib/{$name}": [ "type:drupal-theme" ]
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "config": {
-        "preferred-install": "dist",
-        "autoloader-suffix": "Drupal8"
-    },
-    "extra": {
-        "installer-paths": {
-            "web/core": [ "drupal/core" ],
-            "web/modules/contrib/{$name}": [ "type:drupal-module" ],
-            "web/profiles/{$name}": [ "type:drupal-profile" ],
-            "web/themes/contrib/{$name}": [ "type:drupal-theme" ]
-        },
-        "enable-patching": true
-    },
-    "autoload": {
-        "psr-4": {
-            "Drupal\\Core\\Composer\\": "core/lib/Drupal/Core/Composer"
-        }
-    },
-    "scripts": {
-      "post-install-cmd": [
-        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
-      ],
-      "post-update-cmd": [
-        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
-      ]
-    },
-    "repositories": {
-        "drupal": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        },
-        "drutopia": {
-            "type": "vcs",
-            "url": "https://github.com/Drutopia/drutopia"
-        }
+    "enable-patching": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Drupal\\Core\\Composer\\": "core/lib/Drupal/Core/Composer"
     }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+    ],
+    "post-update-cmd": [
+      "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+    ]
+  },
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    "drutopia": {
+      "type": "vcs",
+      "url": "https://github.com/Drutopia/drutopia"
+    },
+    "drutopia_action": {
+      "type": "vcs",
+      "url": "git@gitlab.com:drutopia/drutopia_action.git"
+    },
+    "drutopia_article": {
+      "type": "vcs",
+      "url": "git@gitlab.com:drutopia/drutopia_article.git"
+    },
+    "drutopia_blog": {
+      "type": "vcs",
+      "url": "git@gitlab.com:drutopia/drutopia_blog.git"
+    },
+    "drutopia_campaign": {
+      "type": "vcs",
+      "url": "git@gitlab.com:drutopia/drutopia_campaign.git"
+    },
+    "drutopia_comment": {
+      "type": "vcs",
+      "url": "git@gitlab.com:drutopia/drutopia_comment.git"
+    },
+    "drutopia_core": {
+      "type": "vcs",
+      "url": "git@gitlab.com:drutopia/drutopia_core.git"
+    },
+    "drutopia_event": {
+      "type": "vcs",
+      "url": "git@gitlab.com:drutopia/drutopia_event.git"
+    },
+    "drutopia_group": {
+      "type": "vcs",
+      "url": "git@gitlab.com:drutopia/drutopia_group.git"
+    },
+    "drutopia_page": {
+      "type": "vcs",
+      "url": "git@gitlab.com:drutopia/drutopia_page.git"
+    },
+    "drutopia_people": {
+      "type": "vcs",
+      "url": "git@gitlab.com:drutopia/drutopia_people.git"
+    },
+    "drutopia_site": {
+      "type": "vcs",
+      "url": "git@gitlab.com:drutopia/drutopia_site.git"
+    },
+    "drupal/drutopia_user": {
+      "type": "vcs",
+      "url": "git@gitlab.com:drutopia/drutopia_user.git"
+    }
+  }
 }
