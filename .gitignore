@@ -9,6 +9,7 @@ composer.lock
 drush/contrib
 vendor
 web/core
+web/profiles/drutopia
 web/modules/contrib
 web/themes/contrib
 web/profiles/contrib
@@ -42,6 +43,3 @@ web/.eslintrc.json
 web/.gitattributes
 web/.htaccess
 web/robots.txt
-
-# Ignore everything already in a repository
-web/profiles/drutopia
