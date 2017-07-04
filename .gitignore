@@ -38,6 +38,7 @@ web/.csslintrc
 web/.editorconfig
 web/.eslintignore
 web/.eslintrc
+web/.eslintrc.json
 web/.gitattributes
 web/.htaccess
 web/robots.txt
