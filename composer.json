@@ -87,9 +87,17 @@
       "type": "vcs",
       "url": "git@github.com:drutopia/drutopia_people.git"
     },
+    "drutopia_search": {
+      "type": "vcs",
+      "url": "git@github.com:drutopia/drutopia_search.git"
+    },
     "drutopia_site": {
       "type": "vcs",
       "url": "git@github.com:drutopia/drutopia_site.git"
+    },
+    "drutopia_social": {
+      "type": "vcs",
+      "url": "git@github.com:drutopia/drutopia_social.git"
     },
     "drupal/drutopia_user": {
       "type": "vcs",
