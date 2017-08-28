@@ -102,6 +102,10 @@
     "drupal/drutopia_user": {
       "type": "vcs",
       "url": "git@github.com:drutopia/drutopia_user.git"
+    },
+    "drupal/octavia": {
+      "type": "vcs",
+      "url": "git@github.com:drutopia/octavia.git"
     }
   }
 }
