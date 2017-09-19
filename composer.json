@@ -79,6 +79,10 @@
       "type": "vcs",
       "url": "git@github.com:drutopia/drutopia_group.git"
     },
+    "drutopia_landing_page": {
+      "type": "vcs",
+      "url": "git@github.com:drutopia/drutopia_landing_page.git"
+    },
     "drutopia_page": {
       "type": "vcs",
       "url": "git@github.com:drutopia/drutopia_page.git"
