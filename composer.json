@@ -39,10 +39,6 @@
     ]
   },
   "repositories": {
-    "drupal": {
-      "type": "composer",
-      "url": "https://packages.drupal.org/8"
-    },
     "drutopia": {
       "type": "vcs",
       "url": "git@github.com:drutopia/drutopia.git"
@@ -86,6 +82,10 @@
     "drutopia_page": {
       "type": "vcs",
       "url": "git@github.com:drutopia/drutopia_page.git"
+    },
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
     },
     "drutopia_people": {
       "type": "vcs",
