@@ -91,6 +91,10 @@
       "type": "vcs",
       "url": "git@github.com:drutopia/drutopia_people.git"
     },
+    "drutopia_resource": {
+      "type": "vcs",
+      "url": "git@github.com:drutopia/drutopia_resource.git"
+    },
     "drutopia_search": {
       "type": "vcs",
       "url": "git@github.com:drutopia/drutopia_search.git"
