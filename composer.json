@@ -114,6 +114,10 @@
       "type": "vcs",
       "url": "git@github.com:drutopia/drutopia_social.git"
     },
+    "drutopia_storyline": {
+      "type": "vcs",
+      "url": "git@github.com:drutopia/drutopia_storyline.git"
+    },
     "drupal/drutopia_user": {
       "type": "vcs",
       "url": "git@github.com:drutopia/drutopia_user.git"
