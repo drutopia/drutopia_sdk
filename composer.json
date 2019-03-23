@@ -44,47 +44,47 @@
   "repositories": {
     "drutopia": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia.git"
+      "url": "git@gitlab.com:drutopia/drutopia.git"
     },
     "drutopia_action": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_action.git"
+      "url": "git@gitlab.com:drutopia/drutopia_action.git"
     },
     "drutopia_article": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_article.git"
+      "url": "git@gitlab.com:drutopia/drutopia_article.git"
     },
     "drutopia_blog": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_blog.git"
+      "url": "git@gitlab.com:drutopia/drutopia_blog.git"
     },
     "drutopia_campaign": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_campaign.git"
+      "url": "git@gitlab.com:drutopia/drutopia_campaign.git"
     },
     "drutopia_comment": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_comment.git"
+      "url": "git@gitlab.com:drutopia/drutopia_comment.git"
     },
     "drutopia_core": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_core.git"
+      "url": "git@gitlab.com:drutopia/drutopia_core.git"
     },
     "drutopia_event": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_event.git"
+      "url": "git@gitlab.com:drutopia/drutopia_event.git"
     },
     "drutopia_group": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_group.git"
+      "url": "git@gitlab.com:drutopia/drutopia_group.git"
     },
     "drutopia_landing_page": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_landing_page.git"
+      "url": "git@gitlab.com:drutopia/drutopia_landing_page.git"
     },
     "drutopia_page": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_page.git"
+      "url": "git@gitlab.com:drutopia/drutopia_page.git"
     },
     "drupal": {
       "type": "composer",
@@ -92,43 +92,43 @@
     },
     "drutopia_people": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_people.git"
+      "url": "git@gitlab.com:drutopia/drutopia_people.git"
     },
     "drutopia_related_content": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_related_content.git"
+      "url": "git@gitlab.com:drutopia/drutopia_related_content.git"
     },
     "drutopia_resource": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_resource.git"
+      "url": "git@gitlab.com:drutopia/drutopia_resource.git"
     },
     "drutopia_search": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_search.git"
+      "url": "git@gitlab.com:drutopia/drutopia_search.git"
     },
     "drutopia_seo": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_seo.git"
+      "url": "git@gitlab.com:drutopia/drutopia_seo.git"
     },
     "drutopia_site": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_site.git"
+      "url": "git@gitlab.com:drutopia/drutopia_site.git"
     },
     "drutopia_social": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_social.git"
+      "url": "git@gitlab.com:drutopia/drutopia_social.git"
     },
     "drutopia_storyline": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_storyline.git"
+      "url": "git@gitlab.com:drutopia/drutopia_storyline.git"
     },
     "drupal/drutopia_user": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/drutopia_user.git"
+      "url": "git@gitlab.com:drutopia/drutopia_user.git"
     },
     "drupal/octavia": {
       "type": "vcs",
-      "url": "git@github.com:drutopia/octavia.git"
+      "url": "git@gitlab.com:drutopia/octavia.git"
     }
   }
 }
